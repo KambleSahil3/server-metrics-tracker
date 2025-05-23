@@ -145,6 +145,6 @@ else
 fi
 
 # Get public IP (if internet available)
-echo -e "\n${YELLOW}Public IP:${RESET}"
-(curl -s ifconfig.me || wget -qO- ifconfig.me) 2>/dev/null || echo "Not available"
+# echo -e "\n${YELLOW}Public IP:${RESET}"
+# (curl -s ifconfig.me || wget -qO- ifconfig.me) 2>/dev/null || echo "Not available"
 echo
